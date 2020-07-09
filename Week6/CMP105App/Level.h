@@ -2,6 +2,10 @@
 
 #include <SFML/Graphics.hpp>
 #include "Framework/Input.h"
+#include "Framework/GameObject.h"
+#include "Ball.h"
+#include "MovingBall.h"
+#include "AngryBird.h"
 #include <string.h>
 #include <iostream>
 
@@ -25,4 +29,10 @@ private:
 	Input* input;
 
 	// More level variables
+
+	//Objects
+	Ball Ball;
+	MovingBall MovingBall;
+	AngryBird AngryBird;
+	sf::Texture texture;
 };
